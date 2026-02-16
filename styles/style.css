@@ -1,6 +1,9 @@
-/* место для вашего кода */
-p {
-  font-size: 60px;
-  letter-spacing: 20px;
-  font-family: 'Raleway', sans-serif;
+.cover {
+  margin-bottom: 180px;
+}
+.lots {
+  margin-bottom: 120px;
+}
+.about {
+  margin-bottom: 180px;
 }
