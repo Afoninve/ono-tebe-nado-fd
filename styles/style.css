@@ -1,1 +1,6 @@
 /* место для вашего кода */
+p {
+  font-size: 60px;
+  letter-spacing: 20px;
+  font-family: 'Raleway', sans-serif;
+}
