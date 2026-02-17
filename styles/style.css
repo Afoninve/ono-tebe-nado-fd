@@ -7,3 +7,54 @@
 .about {
   margin-bottom: 180px;
 }
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 95px 50px 96px;
+}
+
+.header__menu {
+  
+  
+}
+
+.header__links-list {
+  display: flex;
+  gap: 13px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active {
+
+}
+
+.header__links-list-item {
+
+}
+
+.header__link {
+
+}
+
+.header__logo {
+
+}
+
+.header__logo-image {
+  width: 124px;
+  height: 95px;
+}
+
+.header__address {
+
+}
+
+.address {
+
+}
