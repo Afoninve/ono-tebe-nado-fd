@@ -18,15 +18,11 @@
   list-style: none;
 }
 
-.content h1,div {
-  position: relative;
-  z-index: 500;
-}
-
 .header__links-list-item {
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
+  padding-right: 3px;
 }
 
 .header__logo-image {
@@ -74,7 +70,8 @@
   background-color: #fff;
 }
 
-.content h3, .content p {
+.content, .content h3, .content p {
+  position: relative;
   z-index: 500;
 }
 
@@ -187,7 +184,7 @@
 }
 
 .card__title {
-  padding: 48px 40px;
+  padding: 48px 40px 0;
   font-size: 22px;
   line-height: 1.2;
   text-transform: uppercase;
@@ -262,14 +259,14 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 82px;
+  padding: 182px 50px 82px;
   background-color: #fff;
   font-size: 18px;
 }
 
 .footer__address {
   max-width: 264px;
-  
+
 }
 
 .footer__menu {
